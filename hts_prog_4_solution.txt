@@ -1,0 +1,8 @@
+With olly debug put breakpoints on the two addresses below, and then move the cursor on any of the buttons in application window than change the executable code to NOP operations so the program moves stright to the solution message print wich should be "daytona" @004024D2
+
+Put NOP(0x90) @004024B0 -> @004024c9
+
+Bookmarks
+Bookmark   Address    Disassembly                       Comment
+Alt+1      00402496   SUB DWORD PTR SS:[ESP+4],37
+Alt+2      004024B0   NOP
